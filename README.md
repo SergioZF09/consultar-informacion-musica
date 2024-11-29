@@ -1,4 +1,4 @@
-<h1>:books: Consulta información de Libros :books:</h1>
+<h1>:musical_note: Consultoría de información sobre artistas y canciones :musical_note:</h1>
 
 # Insignias
 
@@ -41,18 +41,25 @@ Además, está la opción de buscar una canción con el nombre del artista (tant
 ## Funcionalidades del proyecto
 
 - `Funcionalidad 1`: Tiene una conexión con una base de datos de PostgreSQL, la configuración está estructurado diferente para proteger de los datos reales.
+
 - `Funcionalidad 2`: Tiene una opción para agregar un artista con los siguientes campos: nombre del artista, tipo de artista (tiene una lista de tipos para introducir) y su fecha de nacimiento en años.
+
 - `Funcionalidad 3`: Tiene una opción para agregar una canción de un artista, pero solo funciona cuando dicho artista está registrado. Los campos son los siguientes: nombre de la canción, nombre de la banda (o del artista), nombre del álbum, nombre del género y su fecha de lanzamiento en años.
+
 - `Funcionalidad 4`: Tiene una opción para buscar una canción introduciendo el nombre del artista(ya sea completo o un extracto) ya que la canción está relacionada con dicho nombre. Muestra primero una lista de los nombres de los artistas registrados. Al introducir el nombre y dar enter mostrará el nombre del artista buscado y sus canciones.
+
 - `Funcionalidad 5`: Muestra una lista con toda la iformación de los artistas.
+
 - `Funcionalidad 6`: Muestra una lista con toda la iformación de las canciones.
 
 # Teconologías utilizadas
 
+- Hibernate
 - Java JDK 21
+- JPA
 - Maven
-- Spring Boot
 - PostgreSQL
+- Spring Boot
 
 # Persona Desarrolladora del Proyecto
 
