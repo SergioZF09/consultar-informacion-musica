@@ -1,4 +1,4 @@
-<h1>:musical_note: Consultoría de información sobre artistas y canciones :musical_note:</h1>
+<h1>:musical_note: Consulta información sobre artistas y canciones :musical_note:</h1>
 
 # Insignias
 
