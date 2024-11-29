@@ -54,12 +54,11 @@ Además, está la opción de buscar una canción con el nombre del artista (tant
 
 # Teconologías utilizadas
 
+- Java 21
 - Hibernate
-- Java JDK 21
-- JPA
+- Spring Boot
 - Maven
 - PostgreSQL
-- Spring Boot
 
 # Persona Desarrolladora del Proyecto
 
