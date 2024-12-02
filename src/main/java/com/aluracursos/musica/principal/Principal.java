@@ -86,7 +86,10 @@ public class Principal {
     }
 
     private void registrarCanciones() {
-        System.out.println("Ingresa el nombre del cantante al cual quieres registrar la canción:");
+        System.out.println("Nombres de los artistas:\n");
+        artistas = repositorio.findAll();
+        artistas.forEach(c -> System.out.println(c.getNombreArtista() + "\n"));
+        System.out.println("Ingresa el nombre del artista al cual quieres registrar la canción:");
         var nombre = teclado.nextLine();
 
         Optional<Artista> artistaBuscado = repositorio.findByNombreArtistaContainsIgnoreCase(nombre);
@@ -142,7 +145,7 @@ public class Principal {
     }
 
     private void buscarCancionesPorGenero() {
-        System.out.println("Introduce el nombre de un género:");
+        System.out.println("Introduce el nombre de un género (Rock, Pop, Hard Rock y Heavy Metal):");
         var nombreGenero = teclado.nextLine();
         List<Cancion> cancionesPorGenero = repositorio.buscarCancionesPorGenero(nombreGenero);
         System.out.println("Las canciones del género " + nombreGenero + " son:");
