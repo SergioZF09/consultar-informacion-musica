@@ -13,4 +13,7 @@ public interface ArtistaRepository extends JpaRepository<Artista, Long> {
 
     @Query("SELECT c FROM Artista a JOIN a.canciones c WHERE a.nombreArtista ILIKE %:nombreArtista%")
     List<Cancion> buscarCancionesPorArtista(String nombreArtista);
+
+    @Query("SELECT c FROM Cancion c WHERE c.genero ILIKE %:genero%")
+    List<Cancion> buscarCancionesPorGenero(String genero);
 }

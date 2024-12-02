@@ -29,8 +29,9 @@ public class Principal {
                 1.- Registrar datos de artistas
                 2.- Registrar datos de canciones
                 3.- Buscar canciones por artistas
-                4.- Mostrar artistas
-                5.- Mostrar canciones
+                4.- Listar artistas
+                5.- Listar canciones
+                6 - Buscar canciones por género
                 
                 0.- Salir
                 
@@ -54,6 +55,9 @@ public class Principal {
                     break;
                 case 5:
                     mostrarCanciones();
+                    break;
+                case 6:
+                    buscarCancionesPorGenero();
                     break;
                 case 0:
                     System.out.println("Saliendo de la aplicación.");
@@ -135,5 +139,13 @@ public class Principal {
     private void mostrarCanciones() {
         artistas = repositorio.findAll();
         artistas.forEach(c -> c.getCanciones().forEach(System.out::println));
+    }
+
+    private void buscarCancionesPorGenero() {
+        System.out.println("Introduce el nombre de un género:");
+        var nombreGenero = teclado.nextLine();
+        List<Cancion> cancionesPorGenero = repositorio.buscarCancionesPorGenero(nombreGenero);
+        System.out.println("Las canciones del género " + nombreGenero + " son:");
+        cancionesPorGenero.forEach(System.out::println);
     }
 }

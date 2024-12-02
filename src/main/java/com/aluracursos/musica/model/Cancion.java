@@ -91,6 +91,8 @@ public class Cancion {
     @Override
     public String toString() {
         return "\nCanción:" + nombreCancion + "\n" +
+                "Artista: " + artista.getNombreArtista() + "\n" +
+                "Banda: " + banda + "\n" +
                 "Álbum: " + album + "\n" +
                 "Género: " + genero + "\n" +
                 "Fecha de lanzamiento: " + fechaDeLanzamiento;
