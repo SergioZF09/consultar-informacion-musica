@@ -30,7 +30,7 @@
 
 Es una aplicación en consola donde se puede agregar y mostrar información sobre artistas y canciones de dichos artistas. Por ejemplo, puedes agregar información del artista e información de la canción siempre y cuando exista un artista registrado, y mostrar todos los artistas y todas las canciones que estén registradas en la base de datos.
 
-Además, está la opción de buscar una canción con el nombre del artista (tanto nombre completo como una parte del nombre). Muestra los nombres de los artistas registrados para realizar la búsqueda, después introduces el nombre y das enter te mostrará los datos de las canciones junto con el nombre de dicho artista.
+Además, está la opción de buscar una canción con el nombre del artista (tanto nombre completo como una parte del nombre) solo si está registrado dicho artista en la base de datos, y está también la opción de buscar diversas canciones con el nombre del género.
 
 # Estado del proyecto
 
@@ -46,11 +46,13 @@ Además, está la opción de buscar una canción con el nombre del artista (tant
 
 - `Funcionalidad 3`: Tiene una opción para agregar una canción de un artista, pero solo funciona cuando dicho artista está registrado. Los campos son los siguientes: nombre de la canción, nombre de la banda (o del artista), nombre del álbum, nombre del género y su fecha de lanzamiento en años.
 
-- `Funcionalidad 4`: Tiene una opción para buscar una canción introduciendo el nombre del artista(ya sea completo o un extracto) ya que la canción está relacionada con dicho nombre. Muestra primero una lista de los nombres de los artistas registrados. Al introducir el nombre y dar enter mostrará el nombre del artista buscado y sus canciones.
+- `Funcionalidad 4`: Tiene una opción para buscar una canción introduciendo el nombre del artista (ya sea completo o un extracto) ya que la canción está relacionada con dicho artista. Primero muestra una lista de los nombres de los artistas registrados, después al introducir el nombre del artista y dar enter mostrará el nombre del artista buscado y los datos de sus canciones.
 
 - `Funcionalidad 5`: Muestra una lista con toda la iformación de los artistas.
 
 - `Funcionalidad 6`: Muestra una lista con toda la iformación de las canciones.
+
+- `Funcionalidad 7`: Tiene una opción para buscar varias canción introduciendo el nombre del género (sólo están registrados los siguientes géneros: Rock, Pop, Heavy Metal y Hard Metal). Ingresas el nombre del género, le das enter y te muestra todos los datos de las canciones (con el nombre del artista) del género introducido.
 
 # Teconologías utilizadas
 
