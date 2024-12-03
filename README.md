@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/4da1d7e1-8a8f-4527-afcb-2e20384a4145
 
 Es una aplicación en consola donde se puede agregar y mostrar información sobre artistas y canciones de dichos artistas. Por ejemplo, puedes agregar información del artista e información de la canción siempre y cuando exista un artista registrado, y mostrar todos los artistas y todas las canciones que estén registradas en la base de datos.
 
-Además, está la opción de buscar una canción con el nombre del artista (tanto nombre completo como una parte del nombre) solo si está registrado dicho artista en la base de datos, y está también la opción de buscar diversas canciones con el nombre del género.
+Además, está la opción de buscar una canción con el nombre del artista (tanto nombre completo como una parte del nombre) solo si está registrado dicho artista en la base de datos, y está también la opción de buscar diversas canciones con el nombre del género. Incluye la base de datos para realizar las consultas.
 
 # Estado del proyecto
 
